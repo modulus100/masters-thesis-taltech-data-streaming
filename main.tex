@@ -36,15 +36,15 @@
 % The commands below need to be defined.                    %
 % Estonian title page will be generated automatically       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\doctitle}{[Thesis Title]}
-\newcommand{\doctitleEst}{[Lõputöö pealkiri]} % Title in Estonian
+\newcommand{\doctitle}{State management for a highly scalable stream processing}
+\newcommand{\doctitleEst}{State management for a highly scalable stream processing} % Title in Estonian
 
 % Choose one
-\newcommand{\doctype}{[Bachelor's Thesis / Master's Thesis]}
+\newcommand{\doctype}{Master's Thesis}
 
 % Thesis author
-\newcommand{\authorName}{[Author name]}
-\newcommand{\studentcode}{[Student Code]}
+\newcommand{\authorName}{Aleksandr Madisson}
+\newcommand{\studentcode}{221249IAPM}
 
 % Main supervisor
 \newcommand{\supervisor}{[Supervisor's Name]}
@@ -88,8 +88,6 @@
 
 \newcommand{\doctypeEst}[1]
 {
-  \ifthenelse{\equal{#1}{[Bachelor's Thesis / Master's Thesis]}}{[Bakalaureusetöö / Magistritöö]}{}
-  \ifthenelse{\equal{#1}{Bachelor's Thesis}}{Bakalaureusetöö}{}
   \ifthenelse{\equal{#1}{Master's Thesis}}{Magistritöö}{}
 }
 
